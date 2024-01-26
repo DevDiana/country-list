@@ -1,0 +1,12 @@
+.app {
+  min-height: 100vh;
+}
+.app.dark {
+  background-color: rgba(0, 0, 0, 0.418);
+}
+.app.light {
+  background-color: aliceblue;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
