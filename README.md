@@ -12,7 +12,7 @@
 
 ## Descrição do Projeto
 
-O projeto [Nome do Projeto] utiliza a API Restcountries para oferecer uma experiência interativa que permite explorar informações detalhadas sobre países ao redor do mundo. A aplicação é construída usando Angular e consome dados em tempo real da API Restcountries. 
+O projeto Country List utiliza a API Restcountries para oferecer uma experiência interativa que permite explorar informações detalhadas sobre países ao redor do mundo. A aplicação é construída usando Angular e consome dados em tempo real da API Restcountries. 
 Principais Recursos:
 
 Visualização de Países: Explore uma extensa lista de países com detalhes como população, capital, região, e muito mais.
