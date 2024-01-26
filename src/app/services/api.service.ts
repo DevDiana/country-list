@@ -7,7 +7,7 @@ import { Country } from '../types/api';
   providedIn: 'root',
 })
 export class ApiService {
-  private api = 'https://restcountries.com/v3.1'; // Correção na URL base
+  private api = 'https://restcountries.com/v3.1';
 
   constructor(private http: HttpClient) {}
 
@@ -24,7 +24,7 @@ export class ApiService {
   getCountriesByCodes(codes: string[]) {
     console.log(`${this.api}/alpha?codes=${codes.join(';')}`);
     return this.http.get<Country[]>(
-      `${this.api}/alpha?codes=${codes.join(';')}` // Correção na rota 'alpha'
+      `${this.api}/alpha?codes=${codes.join(';')}`
     );
   }
 }

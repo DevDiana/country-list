@@ -1,12 +1,13 @@
 .app {
   min-height: 100vh;
 }
-.app.dark {
-  background-color: rgba(0, 0, 0, 0.418);
+
+.light {
+  background-color: var(--l-bg);
+  color: var(--l-text);
 }
-.app.light {
-  background-color: aliceblue;
-}
-body {
-  font-family: "Times New Roman", Times, serif;
+
+.dark {
+  background-color: var(--d-bg);
+  color: var(--d-text);
 }

@@ -4,13 +4,7 @@ import { Observable, forkJoin, of, pipe } from 'rxjs';
 import { Country, Currency, Language } from '../../types/api';
 import { ActivatedRoute, RouterEvent, RouterLink } from '@angular/router';
 import { tap, mergeMap } from 'rxjs/operators';
-import {
-  AsyncPipe,
-  NgFor,
-  NgForOf,
-  NgIf,
-  NumberFormatStyle,
-} from '@angular/common';
+import { AsyncPipe, NgFor, NgForOf, NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-detail',
